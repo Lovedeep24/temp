@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "userId": "67cbebe248a5d5e0489914e1",
+      "userName": "Lovedeep",
+      "email": "lovedeep24253@gmail.com",
+      "password": "acd18e08db984d40a890d1288ccee781137e9fe02a2cd29f85c08a45d9ceceb090172ce4a456e2024466f4179eaa1798165f882502eff5adb64a8e43236da3f8",
+      "salt": "156cd402c2627d1c74c98f2c7b02af32",
+      "credits": 1,
+      "role": "user",
+      "creditRequest": true,
+      "totalScan": 149
+    },
+    {
+      "userId": "67caa12af94b818eb0174954",
+      "userName": "admin",
+      "email": "admin@gmail.com",
+      "password": "90a78d791e0f9841aa559e67f7e61bfcbe09dd80f810416fc21485a9ff496437cf672db18d96b6410415b5e57e6eef439733e648f1a71286dd1cefb8df18e3b6",
+      "salt": "a2c7fb058483bb1b55793ea02f0e3a41",
+      "credits": 19,
+      "role": "admin",
+      "creditRequest": false,
+      "totalScan": 6
+    },
+    {
+      "userId": "67caa113ca5a24de60640342",
+      "userName": "aharsh",
+      "email": "aharshsingh25@gmail.com",
+      "password": "74c1f1b4216faaf2dceca5928055bed0208b4ca1368033353d2a8b8e6fb81de810fee97d20d07ba6fae1337fbe98b41add9f322ee45bb6c4a4d2abecce8d6f7b",
+      "salt": "9757b25749c1febb3919b04793acc1c5",
+      "credits": 75,
+      "role": "user",
+      "creditRequest": false,
+      "totalScan": 2
+    },
+    {
+      "userId": "67cbebff2b534fa43222c025",
+      "userName": "John",
+      "email": "john@gmail.com",
+      "password": "42df4721e068ab2d83aa965373d761a7e07496c48b967549ee226fc35f5ff5f64c28cb64d4ea4dec8f971fb22cbe9890040b044890650fb965c8b76ea68ff28c",
+      "salt": "1195783fdbbe7e27c81600fa505020d0",
+      "credits": 30,
+      "role": "user",
+      "creditRequest": false,
+      "totalScan": 0
+    },
+    {
+      "userId": "67cbec264dc935009c90ec30",
+      "userName": "Rohan Sharma",
+      "email": "rohan@gmail.com",
+      "password": "f12b05648229797ae777f34df1ea4a7c37cd6dbf9d14aae080df9b530a45679545a7d6f279831d2a1472b7226e3c6dff46e709e9f3af6551b34784172924b6cf",
+      "salt": "fe4e5f61c1a97fc72bdd25ead70afb8f",
+      "credits": 30,
+      "role": "user",
+      "creditRequest": true,
+      "totalScan": 0
+    },
+    {
+      "userId": "67cbf412eea16aed2d74a32f",
+      "userName": "Amit",
+      "email": "lovedeep243@gmail.com",
+      "password": "d1d1f3b5f8d66cf56b12eed7325dbf9acc544060a9ef9f976d55223cebdc503c562e720fc84529df0d8372f454be2b37ad330b8b4785a89b199209a6422dd1a7",
+      "salt": "8d616391753f32f6c20cbf35ec90eea3",
+      "credits": 25,
+      "role": "user",
+      "creditRequest": false,
+      "totalScan": 0
+    }
+  ]
+}

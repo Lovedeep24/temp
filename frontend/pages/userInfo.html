@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+   <link rel="stylesheet" href="../styles/userInfo.css">
+   <script src="../scripts/userInfo.js" ></script>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="navbar">
+            <div class="greeting">Hello, <span id="userName"></span>!</div>
+            <div class="profile-container">
+                    <p><strong>Credits:</strong> <span id="creditDisplay">40</span></p>
+                <button class="btn" onclick="handleCreditReq()">Request Credits</button>
+                <button onclick="handleScan()" class="btn">Scan a Document</button>
+            </div>
+           
+        </div>
+    
+        <div class="searchSection">
+            <div class="scans">
+                <h3>Past Scans Topics</h3>
+                <table >
+                    <thead>
+                        <tr>
+                            <th>Topic</th>
+                            <th>File Name</th>
+                            <th>Scanned at</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pastScans">
+                        <!-- <tr>
+                            <td>John Doe</td>
+                            <td>150</td>
+                            <td>150</td>
+                        </tr>
+                    
+                        </tr> -->
+                    </tbody>
+                </table>
+                <ul id="pastScans">        
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

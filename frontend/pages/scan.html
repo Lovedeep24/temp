@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/scan.css"></link>
+    <script defer src="../scripts/scan.js"></script>
+</head>
+<body>
+    <div class="navbar">
+            <h1 class="heading" >Scanning Result</h1>
+            <button onclick="handleProfile()">
+                User Profile
+            </button>
+       
+    </div>  
+        <div class="scanData">
+            <div id="matchingPer">
+                <p><span id="matching"></span>%  match</p>
+            </div>
+          
+            <div class="content-main">
+                <div id="userContentDiv">
+                    <h2>Your Content</h2>
+                    <p id="userContent">MATCHING CONTENT</p> 
+                </div>
+               
+                <div id="matchContentDiv">
+                <h2>Matched Content</h2>
+                <p id="matchContent">MATCHING CONTENT</p>    
+                </div>
+            </div>
+            
+        </div>
+    
+</body>
+</html>

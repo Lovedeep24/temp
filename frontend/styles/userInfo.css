@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.mainDiv{
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+.navbar{
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.greeting {
+    /* border: 2px solid blue; */
+    color: #FD9A18;;
+    text-align: center;
+    height: fit-content;
+    font-size: 35px;
+    font-weight: bold;
+}
+.profile-container {
+    padding: 2px;
+    height: auto;
+    /* background-color: black; */
+    /* background-color: white; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 40px;
+    /* border: 2px solid white; */
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+#creditDisplay{
+    font-weight: bold;
+}
+.searchSection {
+    background: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 90vh;
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    /* color: white; */
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #232F3E;
+    color: white;
+}
+.scans{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+.btn {
+    padding: 10px;
+    border: none;
+    background:#FD9A18;
+    color: black;
+    /* border: 1px solid white; */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cred{
+    padding: 10px;
+    border: none;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#FD9A18;
+    color: white;
+    /* border: 1px solid white; */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* .btn:hover {
+    background: darkgreen;
+} */
+ p{
+    color: white;
+ }

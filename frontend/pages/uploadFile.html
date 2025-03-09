@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uploadDoc</title>
+    <link rel="stylesheet" href="../styles/uploadFile.css">
+    <script defer src="../scripts/uploadFile.js"></script>
+</head>
+<body>
+        <div class="credit-container">
+            <p>Credits:<span id="creditDisplay"></span></p>
+            <button id="req" onclick="handleCreditReq()">Request Credits</button>
+            <button id="navbar" onclick="handleProfile()">
+                User Profile
+            </button>
+        </div>
+  
+  
+    <div class="upload-container">
+        <p class="head">Scan the Document</p>
+        <p class="desc">Upload a text doucument file</p>
+        <div class="upload-box" id="uploadBox" onclick="document.getElementById('fileInput').click()">
+            <span class="slc">Click to</span>Select a File
+            <!-- <img id="previewImage" alt="Image Preview"> -->
+        </div>
+        <input type="file"  id="fileInput" style="display: none;">
+        <button id="btn"  onclick="handleScan()" type="button">Scan</button>
+    </div>
+
+</body>
+</html>
