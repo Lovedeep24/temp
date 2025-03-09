@@ -105,10 +105,11 @@ button{
     overflow-y: auto; 
     overflow: auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start; /* Align content to the left */
+    justify-content: flex-start; /* Ensure content starts from the top */
+    gap: 10px; /* Reduce space between elements */
     flex-direction: column;
-    gap: 30px;
+    /* gap: 30px; */
     padding: 20px;
     background: white;
     border-radius: 8px;
@@ -116,8 +117,8 @@ button{
 }
 
 #matchingPer {
-    width: 15%;
-    height: 25%;
+    width: 10rem;
+    height: 3rem;
     /* border: 2px solid red; */
     /* text-align: center; */
     display: flex;
@@ -130,6 +131,7 @@ button{
 }
 
 h2 {
+    align-self: center;
     font-size: 20px;
     color: #333;
     margin-bottom: 10px;
