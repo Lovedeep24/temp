@@ -36,6 +36,7 @@ async function handlelogin(){
     const data=await response.json();
     localStorage.setItem("token",data.accessToken);
     localStorage.setItem("userId",data.userId);
+    localStorage.setItem("credits",data.credits);
 
     if (response.status === 200)
         {       
