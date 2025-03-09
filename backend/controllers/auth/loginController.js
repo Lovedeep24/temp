@@ -32,7 +32,7 @@ const loginController = {
             let accessToken = readFile(accessTokenFilePath);
             accessToken.tokens.push(newLogin)
             writeFile(accessToken, accessTokenFilePath);
-            return res.status(200).json({"accessToken": newLogin.accessToken, "userId":newLogin.userId});
+            return res.status(200).json({"accessToken": newLogin.accessToken, "userId":newLogin.userId, "credits": user.credits});
         } catch (error) {
             return res.status(500).json({error: "Internal server error"})
         }

@@ -69,7 +69,7 @@ const fileController = {
             User.users[userIndex].credits -= 1;
             User.users[userIndex].totalScan += 1;
             writeFile(User, userFilePath);
-            res.status(200).json({maxMatch,scannedFile:scan.fileContent,maxMatchContent});
+            res.status(200).json({maxMatch,scannedFile:scan.fileContent,maxMatchContent,"credits": User.users[userIndex].credits });
         } catch (error) {
             // console.log(error);
             return res.status(500).json({"error": "Internal server error"})

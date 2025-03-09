@@ -6,10 +6,10 @@
       "email": "lovedeep24253@gmail.com",
       "password": "acd18e08db984d40a890d1288ccee781137e9fe02a2cd29f85c08a45d9ceceb090172ce4a456e2024466f4179eaa1798165f882502eff5adb64a8e43236da3f8",
       "salt": "156cd402c2627d1c74c98f2c7b02af32",
-      "credits": 1,
+      "credits": 20,
       "role": "user",
       "creditRequest": true,
-      "totalScan": 149
+      "totalScan": 19
     },
     {
       "userId": "67caa12af94b818eb0174954",
@@ -41,7 +41,7 @@
       "salt": "1195783fdbbe7e27c81600fa505020d0",
       "credits": 30,
       "role": "user",
-      "creditRequest": false,
+      "creditRequest": true,
       "totalScan": 0
     },
     {
